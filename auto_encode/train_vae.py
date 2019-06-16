@@ -60,7 +60,7 @@ def parse_arguments():
                         help='snapshot interval epoch (default: 100)')
     parser.add_argument('--out', '-o', required=True,
                         help='Output directory')
-    parser.add_argument('--data_dir', default='/data/unagi0/ono/thesis/sequential_generation_2D/',
+    parser.add_argument('--data_dir', default='',
                         help='data root directory')
     parser.add_argument('--adam_decay_epoch', '-ade', type=int, default=50,
                         help='adam decay epoch (default: 50)')

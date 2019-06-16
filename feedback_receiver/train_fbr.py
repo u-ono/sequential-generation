@@ -85,7 +85,7 @@ def parse_arguments():
     parser.add_argument('--n_case', type=int, default=5,
                         help='Number of cases to be saved.')
 
-    parser.add_argument('--data_dir', default='/data/unagi0/ono/thesis/sequential_generation_2D/',
+    parser.add_argument('--data_dir', default='',
                         help='data root directory')
     parser.add_argument('--snapshot_interval', type=int, default=10,
                         help='Interval of snapshot (epoch)')

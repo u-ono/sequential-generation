@@ -77,7 +77,7 @@ def main():
 
     args = parse_arguments()
 
-    PATH = '/data/unagi0/ono/thesis/sequential_generation_2D/'
+    PATH = ''
     DATA_PATH = PATH + 'data/'
     OUT_PATH = PATH + 'caption/' + args.out
 

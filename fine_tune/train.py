@@ -94,7 +94,7 @@ def parse_arguments():
     parser.add_argument('--fbr_param', '-fp', type=str, required=True,
                         help='Model parameter for feedback receiver.')
 
-    parser.add_argument('--data_dir', default='/data/unagi0/ono/thesis/sequential_generation_2D/',
+    parser.add_argument('--data_dir', default='',
                         help='data root directory')
     parser.add_argument('--snapshot_interval', type=int, default=1,
                         help='Interval of snapshot (epoch)')

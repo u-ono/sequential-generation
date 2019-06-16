@@ -64,7 +64,7 @@ def main():
     print('Angle: {}'.format(args.angle))
     print('')
 
-    PATH = '/data/unagi0/ono/thesis/sequential_generation_2D/'
+    PATH = ''
     DATA_PATH = PATH + 'data/'
     OUT_PATH = PATH + 'caption/' + args.out
 
